@@ -1,0 +1,560 @@
+body{
+    font-family: Arial;
+    margin-top: 120px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 120px;
+    background: rgb(116, 70, 239);
+    background: linear-gradient(90deg, rgba(116, 70, 239, 1) 0%, rgba(102, 144, 246, 1) 97%);
+}
+header{
+    height: 71px;
+    background-color: #253343;
+    border-radius: 10px 10px 0px 0px;
+    align-self: center;
+    vertical-align: middle;
+    justify-content: space-between;
+    display: flex;
+}
+.logo{
+    height: 60px;
+    margin-left:5px;
+    margin-top:5px;
+}
+.header-input{
+    color:#445268;
+    background-color: #253343;
+    border:none;
+    width:300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    
+    
+}
+.bi-search{
+    color:#445268;
+    
+}
+.header-menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2.1fr 1fr 1.5fr 260px;
+    margin-right:20px ;
+    width:1000px;
+    column-gap: 25px;
+    color:white;
+    margin-top: 25px;
+}
+.header-menu span:hover{
+    color:#008aff;
+}
+.profile-icon{
+    background: rgb(52, 44, 73);
+    background: linear-gradient(90deg, rgba(52, 44, 73, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+     position: absolute;
+     margin-left: 45px;
+     top:135px;
+}
+.name-profile{
+    margin-left:100px;
+}
+.main-page{
+    background-color: #202934;
+    display: grid;
+    grid-template-columns: 3fr 2fr 260px;
+    column-gap: 30px;
+
+}
+.balance-block{
+    
+    height: 375px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+aside{
+    background-color: #253343;
+}
+.date-circle{
+    background-color: #4bdea5;
+    color:white;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border-radius: 25px;
+    text-align: center;
+}
+.li-block{
+    display: flex;
+
+}
+.date-block-info{
+    margin-left: 15px;
+}
+.Recurring-Payments-list{
+    list-style-type: none;
+    padding-left: 30px;
+    
+}
+.Recurring-Payments-Title{
+    padding: 25px;
+    color:white;
+}
+.Recurring-Payments-list li{
+    margin-bottom: 25px;
+}
+.Recurring-Payments-Bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+.Recurring-Payments-Block{
+    border: solid 1px #202934;
+    padding-bottom: 20px;
+}
+.date-circle-2{
+    background-color: #ff8a70;
+        color: white;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        border-radius: 25px;
+        text-align: center;
+        
+}
+.date-info-in-the-circle{
+    margin-top: 15px;
+    margin-left: 3px;
+    text-align: center;
+    
+    font-weight: bold;
+}
+.date-info-in-the-circle-2{
+    font-weight: bold;
+    width: 40px;
+    padding-top:5px;
+    padding-left:10px;
+}
+.Recurring-Transactions-Block-list{
+    list-style-type: none;
+    padding-left: 30px;
+}
+.Recurring-Transactions-Block-list li{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:25px;
+}
+.bi-caret-down-fill { 
+    margin-top:12px;
+    margin-right:15px;
+}
+.bi-caret-up-fill{ 
+    margin-top: 12px;
+        margin-right: 15px;
+}
+.credint-card-header{
+    
+    background-color:#253343;
+    color:white;
+    padding-left:30px;
+    padding-top: 24px;
+    padding-bottom: 23px;
+}
+.credint-card-block{
+    margin-top: 30px;
+    
+    
+    
+}
+.credint-card-block-2{
+    margin-bottom: 15px;
+    background-color: #222d38;
+    padding-bottom: 20px;
+}
+.credint-cards{
+    overflow: hidden;
+    display: flex;
+    margin-top: 20px;
+}
+.grey-card{
+    
+    height: 200px;
+    width: 70px;
+    background-color: #2d3842;
+    border-radius: 0 10px 10px 0;
+    
+}
+.pink-card{
+    background-color: #da4abd;
+    height: 200px;
+     width: 320px;
+    border-radius:10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'OCR A Std', sans-serif;
+}
+.grey-card-2 {
+
+    height: 200px;
+    width: 70px;
+    background-color: #2d3842;
+    border-radius: 10px 0 0 10px;
+
+}
+.card-number{
+    margin-top: 85px;
+    margin-left:20px;
+    font-size: 20px;
+    color:white;
+    
+
+}
+.card-owner-info{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:40px;
+    color:white;
+}
+.card-selector{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color:white;
+}
+.bi-chevron-right{
+    margin-left:55px;
+   
+}
+.bi-chevron-left{
+    margin-right: 55px;
+}
+.current-info{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+    color:white;
+    border-bottom: 3px solid #202b35;
+    padding-bottom:25px;
+    padding-top: 25px;
+
+}
+.current-date{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    color: white;
+}
+.credint-card-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.card-but{
+    border:3px solid #0089ff;
+    color:white;
+    padding-top:20px;
+    padding-left:45px;
+    padding-right: 45px;
+    background-color: #222d38;
+    border-radius:30px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    margin-left:40px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.friends-block{
+    
+    display: flex;
+    flex-direction: column;
+}
+.friend{
+    height: 75px;
+    background-color: #222d38;
+    
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.profile-icon-2{
+    background: rgb(52, 44, 73);
+    background: linear-gradient(90deg, rgba(52, 44, 73, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+    margin-top: 13px;    
+    margin-left: 20px;
+}
+.name-friend{
+    color:white;
+    width: 56px;
+    margin-left:15px;
+    margin-top: 20px;
+}
+.friends-balance{
+    border-bottom: 3px solid #323e4a;
+    color:#323e4a;
+    padding-left: 55px;
+    margin-right:15px;
+
+}
+.send{
+    color:#0971ca;
+    margin-right: 30px;
+}
+.balance-block-header{
+    display:flex;
+    justify-content: space-between;
+
+}
+.balance-block-header{
+    height:70px;
+    color: white;
+    padding-top: 20px;
+    background-color: #253343;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.currency{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    column-gap: 30px;
+    
+}
+.currency span{
+    padding-left:9px;
+    padding-right: 9px;
+}
+.currency span:hover{
+    color:#008aff;
+    border-bottom: 3px solid #008aff;
+    height:50px;
+}
+.tasks-bar-block{
+    height: 50px;
+    background-color:#222d38;
+    margin-top: 0;
+    display:flex;
+    justify-content: space-between;
+   
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.chartsjs-block{
+    background-color: #222d38;
+}
+.progress-bar-block{
+    width: 180px;
+}
+.progress-bar1 {
+    background: #22dcbf;
+    
+}
+.progress-bar-currency{
+    color:#22dcbf;
+    position: absolute;
+    
+}
+.progress{
+margin-left: 37px;
+    height: 5px;
+    margin-top: 8px;
+}
+.progress-bar-currency-2{
+    position: absolute;
+    color:#2e78e7;
+}
+.progress-bar2 {
+    background: #2e78e7;
+
+}
+.percentage-of-taskbar{
+    margin-top: 5px;
+    margin-left:90px;
+    color:#1b252e;
+   
+}
+.progress-bar-currency-3{
+    position: absolute;
+    color: #db66bb;
+}
+.progress-bar3 {
+    background: #db66bb;
+
+}
+.balance-block-1{
+    background-color: #222d38;
+}
+.balance-block-2{
+    margin-top:30px;
+    background-color: #222d38;
+}
+.calculator-header{
+    display: flex;
+    justify-content:space-between;
+    color:white;
+    padding-left:30px;
+    padding-top: 20px;
+    background-color:#253343;
+    font-weight: bold;
+    padding-right:30px;
+}
+.calculator-selector{
+    display: grid;
+        grid-template-columns: 1fr 0.8fr 0.5fr;
+        column-gap: 15px;
+}
+.calculator-selector span{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.calculator-selector span:hover{
+    color:#008aff;
+    border-bottom: 3px solid #008aff;
+}
+.calculator-block{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    margin-top: 20px;
+}
+.calculator-block-info{
+    display: flex;
+    justify-content: space-between; 
+    background-color:#222d38 ;
+    padding-bottom: 10px;
+}
+.calculator-block-info div{
+    
+    
+    padding-left:20px;
+    
+    margin-right: 30px;
+    font-size:20px;
+}
+
+.form-range{
+    width: 280px;
+    height: 5px;
+    
+    margin-left: 30px;
+}
+.slider-block-1{
+    margin-bottom: 30px;
+
+}
+.slider-block-1 span{
+    color: #8999a9;
+    margin-left: 35px;
+}
+.slider-block-1 div{
+    color: white;
+     font-weight: bold;
+}
+
+.calculator-block-info-mount{
+    margin: 0;
+    font-size: 13px;
+    border-bottom:none;
+    color:#0089ff;
+    margin-left: 15px;
+}
+.strong-96{
+    color: white;
+        font-weight: bold;
+        margin-right: 30px;
+        
+       
+}
+.u96{
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 3px solid #37424f;
+    padding-left: 15px;
+}
+.calculator-block-info-2{
+    display: flex;
+    justify-content: space-between;
+    background-color:#202933;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.Per-Rate{
+    color:#353f4b;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.num-cal-info{
+    color:white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+.Payment-plan{
+    color:#0971ca;
+    padding:20px;
+    display: inline;
+}
+.Resort-but{
+    border: 3px solid #0089ff;
+    color: white;
+    background-color: #222d38;
+    border-radius: 25px;
+    padding: 10px 35px 10px 35px;
+    margin-left: 10px;
+}
+.calculator-block-buttons{
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    
+}
+.bottom-page{
+    height: 70px;
+    width: 100%;
+    background-color: #202833;
+    display: flex;
+    color: white;
+    padding-left: 10px;
+}
+.company-block{
+    padding-left: 20px;
+    padding-top: 15px;
+    margin-right: 50px;
+}
+.company-name{
+    padding-right: 25px;
+}
+.total-balance{
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.profile-slider-info{
+    position: absolute;
+    margin-left: 50px;
+    background-color:#1f2833;
+    height: 150px;
+    width: 200px;
+    padding-top: 15px;
+    padding-left: 10px;
+    display: none;
+}
+.profile-slider-info span{
+    margin-top: 18px;
+}
